@@ -1,0 +1,5 @@
+# Runtime dependencies for darkpdf.
+#   pip install -r requirements.txt
+pikepdf>=9.0        # PDF object model, content-stream parsing and saving
+pymupdf>=1.24       # page rendering and the invisible text layer (raster mode)
+pillow>=10.0        # pixel inversion and image encoding (raster mode)
